@@ -19,7 +19,7 @@ def generate_samples(distribution, size):
 def plot_distribution(distribution, sizes):
     fig, axes = plt.subplots(1, 3, figsize=(18, 5))
 
-    for i, size in enumerate(sizes):
+    for i, size in enumerate (sizes):
         samples = generate_samples(distribution, size)
         ax = axes[i]
 
