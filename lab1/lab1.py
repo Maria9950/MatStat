@@ -27,7 +27,7 @@ def plot_distribution(distribution, sizes):
             values, counts = np.unique(samples, return_counts=True)
             ax.bar(values, counts / size,
                    alpha=0.7,
-                   color="#F4A261",      # нежно-оранжевый
+                   color="#F4A261",
                    edgecolor="black",
                    label="Гистограмма")
 
@@ -46,7 +46,7 @@ def plot_distribution(distribution, sizes):
                     bins='fd',
                     density=True,
                     alpha=0.7,
-                    color="#F4A261",      # нежно-оранжевый
+                    color="#F4A261",
                     edgecolor="black",
                     label="Гистограмма")
 
